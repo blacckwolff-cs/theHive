@@ -1,0 +1,44 @@
+{
+    "fireteam_id": "12345",
+    "fireteam_name": "My Fireteam",
+    "fireteam_description": "This is a description of my fireteam",
+    "fireteam_leader": {
+        "leader_id": "1",
+        "leader_name": "Alice",
+        "leader_role": "Kronos",
+        "leader_status": "active",
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "power_level": 100
+    },
+    "fireteam_members": [
+        {    
+            "member_id": "2",
+            "member_name": "Tim",
+            "member_role": "Artemis",
+            "member_status": "active",
+            "position": {
+                "x": 10,
+                "y": 5,
+                "z": 0
+            },
+            "power_level": 75,
+            "ammunition": 3
+        },
+        {
+            "member_id": "3",
+            "member_name": "Bob",
+            "member_role": "Apollo",
+            "member_status": "inactive",
+            "position": {
+                "x": 15,
+                "y": 10,
+                "z": 0
+            },
+            "power_level": 50
+        }
+    ]
+}

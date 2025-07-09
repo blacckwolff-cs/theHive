@@ -1,0 +1,4 @@
+py -3.13 hiveServer.py
+cmake --build build --config Release
+
+.\build\Release\fireteam_ai.exe
